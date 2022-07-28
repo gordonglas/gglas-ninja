@@ -9,8 +9,7 @@ const pageStyles = {
 }
 const headingStyles = {
   marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
+  marginBottom: 30,
 }
 
 const paragraphStyles = {
@@ -28,23 +27,20 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Not found</title>
-      <h1 style={headingStyles}>Page not found</h1>
+      <title>Link not working</title>
+      <h1 style={headingStyles}>Link not working</h1>
       <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
+        <img src="/img/common/status-error.jpg" className="img-fluid" alt="404 - Link not working" /><br />
+        Illustration by <a href="https://bumph.tumblr.com/post/72446275370/link-not-working">Andy Fanton</a>
+
         {process.env.NODE_ENV === "development" ? (
           <>
-            <br />
+            <br /><br />
             Try creating a page in <code style={codeStyles}>src/pages/</code>.
             <br />
           </>
         ) : null}
-        <br />
+        <br /><br />
         <Link to="/">Go home</Link>.
       </p>
     </main>
