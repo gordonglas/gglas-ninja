@@ -33,7 +33,7 @@
 }
 
 .news-post-preview {
-    max-width: 830px !important;
+    max-width: 1000px !important;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px !important;
@@ -43,7 +43,6 @@
 .read-more,
 .news-content {
     font-size: 1.2em;
-    line-height: 1.7em;
 }
 
 .news-content-preview {
@@ -51,7 +50,7 @@
 }
 
 .news-post {
-    max-width: 830px !important;
+    max-width: 1000px !important;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px !important;
@@ -121,7 +120,6 @@
 
 .about-me-text {
     font-size: 1.2em;
-    line-height: 1.7em;
 }
 
 /* override firefox's ugly select down arrow

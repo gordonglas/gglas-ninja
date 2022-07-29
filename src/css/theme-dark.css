@@ -11,8 +11,12 @@ body {
     background-color: darkgray;
 }
 
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background-color: #232326 !important;
+}
+
 #isso-thread h4 {
-    color: #bfc9d2 !important;
+    color: #303030 !important;
 }
 
 #isso-thread .textarea.placeholder {

@@ -31,7 +31,8 @@ const AboutPage = () => {
                   <ul>
                     <li><a href="https://github.com/gordonglas">Program computers</a>.</li>
                     <li><a href="https://overworldsoft.com">Pretend I make games</a> (at least for now.)</li>
-                    <li>Listen to relaxing New Age, Jazz, 80's, Synthwave, and game music soundtracks.</li>
+                    <li><a href="https://soundcloud.com/alphatrak/tracks">Compose music</a></li>
+                    <li>Listen to relaxing <a href="https://www.youtube.com/results?search_query=kitaro">New Age</a>, <a href="https://www.youtube.com/results?search_query=relaxing+coffee+shop+jazz">Jazz</a>, <a href="https://www.youtube.com/results?search_query=1980%27s+music">80's</a>, <a href="https://www.youtube.com/results?search_query=synthwave">Synthwave</a>, and <a href="https://www.youtube.com/results?search_query=relaxing+video+game+music">game music soundtracks</a>.</li>
                     <li>Watch space-operas.</li>
                     <li>Work on my yard.</li>
                     <li>(I want to add "Make gunpla" back to this list sometime soon. Haven't done it since grade-school.)</li>
