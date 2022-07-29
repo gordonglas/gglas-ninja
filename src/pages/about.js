@@ -26,6 +26,7 @@ const AboutPage = () => {
                     first took me to <a href="https://www.chuckecheese.com/">Chuck E. Cheese</a> in
                     the early 80's.
                 </p>
+                <p>I've been messing with computers since my parents bought an <a href="https://en.wikipedia.org/wiki/Apple_IIc">Apple IIc</a>.</p>
                 <p>Now my son and I do a lot of gaming together, build LEGOs, and other things.</p>
                 <div>Some other things I like to do:
                   <ul>
