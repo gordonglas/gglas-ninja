@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 import { Link } from 'gatsby'
 import appSettings from "../config/app-settings"
 // our custom css overrides
@@ -10,6 +11,10 @@ const Layout = ({pageTitle, activeMenu, children}) => {
   return (
     <div>
       <title>{pageTitle}</title>
+      <Helmet>
+        {/* files in the /static folder get copied 'as-is' to the final site's root */}
+        <link rel="apple-touch-icon" sizes="96x96" href="/img/gn/touch-icon-96-96.png" />
+      </Helmet>
       <nav className="navbar navbar-expand-md bg-primary navbar-dark navbar-fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">{appSettings.siteTitle}</Link>
