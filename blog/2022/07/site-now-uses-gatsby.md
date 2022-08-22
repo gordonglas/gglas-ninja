@@ -2,6 +2,7 @@
 title: "Site now uses Gatsby"
 date: "2022-07-27"
 tags: ["Web Dev"]
+published: true
 ---
 
 My websites have gone through different tech stacks over the years.

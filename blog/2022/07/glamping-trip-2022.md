@@ -2,6 +2,7 @@
 title: "Glamping trip 2022"
 date: "2022-07-29"
 tags: ["Vacation"]
+published: true
 ---
 
 We had our first glamping trip as a family last weekend, via [getaway.house](https://getaway.house).

@@ -37,7 +37,10 @@ const IndexPage = ({ data }) => {
 // ignore files in the ".obsidian" folder
 export const query = graphql`
 query {
-  allMdx(sort: {fields: frontmatter___date, order: DESC}) {
+  allMdx(
+    sort: {fields: frontmatter___date, order: DESC}
+    filter: {frontmatter: {published: {eq: true}}}
+  ) {
     nodes {
       frontmatter {
         title

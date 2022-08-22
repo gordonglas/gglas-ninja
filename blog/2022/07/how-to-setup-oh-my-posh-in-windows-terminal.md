@@ -2,6 +2,7 @@
 title: "How to setup oh-my-posh in Windows Terminal"
 date: "2022-07-28"
 tags: ["Dev", "Dev Setup"]
+published: true
 ---
 
 While surfing the web (do people still say that?) I've seen several programmers have their shell decorated in a neat way, such as:
