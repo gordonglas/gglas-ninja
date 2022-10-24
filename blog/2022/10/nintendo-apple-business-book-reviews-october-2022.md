@@ -41,7 +41,8 @@ I enjoyed his book, and some of his advice will stick with me.
 
 ![](ask-iwata-cover.png)
 
-Satoru Iwata was best know as the President of Nintendo Co Ltd in Japan, but he was also a skilled game programmer.  
+This book is an organized collection of posts from Satoru Iwata, who was best know as the President of Nintendo Co Ltd in Japan, but he was also a skilled game programmer.
+
 Watch his [speech at GDC 2005](https://www.youtube.com/watch?v=RMrj8gdUfCU) where he iconically introduces himself:
 
 *"On my corporate business card, I'm a President. In my mind, I'm a Game Developer. But in my heart, I am a Gamer."*
