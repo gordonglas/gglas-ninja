@@ -78,3 +78,13 @@ If you get an error message saying you can't run your profile script, run powers
 ```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
+
+<br/><br/>
+
+## Visual Studio Code Terminal Font Setup
+
+If you use Visual Studio Code, you'll probably notice that some of the characters in the prompt don't display correctly in it's integrated bash terminal. You can easily fix this by setting the terminal font to the same font we used above:
+* Opening settings by pressing `ctrl-shift-p` to open the command panel and type settings and open the settings UI.
+* Search the settings UI for `terminal font` and find the `Terminal > Integrated: Font Family` setting.
+* Set it to the same font face name you used above, which is `MesloLGM NF` in this case.
+* It should update immediately and you should be good to go.
