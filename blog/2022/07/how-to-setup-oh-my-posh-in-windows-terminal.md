@@ -1,7 +1,7 @@
 ---
 title: "How to setup oh-my-posh in Windows Terminal"
 date: "2022-07-28"
-tags: ["Dev", "Dev Setup"]
+tags: ["Dev", "Dev Setup", "VSCode"]
 published: true
 ---
 
