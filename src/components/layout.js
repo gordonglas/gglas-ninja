@@ -14,6 +14,8 @@ const Layout = ({pageTitle, activeMenu, children}) => {
       <Helmet>
         {/* files in the /static folder get copied 'as-is' to the final site's root */}
         <link rel="apple-touch-icon" sizes="96x96" href="/img/gn/touch-icon-96-96.png" />
+        {/* For Mastodon link verification: https://docs.joinmastodon.org/user/profile/#verification */}
+        <link href="https://mastodon.gamedev.place/@kefka" rel="me" />
       </Helmet>
       <nav className="navbar navbar-expand-md bg-primary navbar-dark navbar-fixed-top">
         <div className="container-fluid">
