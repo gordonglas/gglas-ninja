@@ -1,5 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import appSettings from "../config/app-settings"
+import HeadHtml from '../components/head-html'
 
 // styles
 const pageStyles = {
@@ -27,7 +29,6 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Link not working</title>
       <h1 style={headingStyles}>Link not working</h1>
       <p style={paragraphStyles}>
         <img src="/img/common/status-error.jpg" className="img-fluid" alt="404 - Link not working" /><br />
@@ -44,6 +45,12 @@ const NotFoundPage = () => {
         <Link to="/">Go home</Link>.
       </p>
     </main>
+  )
+}
+
+export function Head() {
+  return (
+    <HeadHtml pageTitle={appSettings.formatTitle("Link not working")} />
   )
 }
 

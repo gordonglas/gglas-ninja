@@ -64,7 +64,10 @@ module.exports = {
                   data: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + "/blog/" + edge.node.frontmatter.slug,
                   guid: site.siteMetadata.siteUrl + "/blog/" + edge.node.frontmatter.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }],
+                  // RSS feed is broken until I can figure out what to use instead of
+                  // the html field, which is no longer in the mdx query data as of v5.
+                  // This affects the paths of images and such in the rss html.
+                  //custom_elements: [{ 'content:encoded': edge.node.html }],
                 });
               });
             },
@@ -72,13 +75,12 @@ module.exports = {
             {
               allMdx(
                 limit: 1000,
-                sort: { order: DESC, fields: [frontmatter___date] }
+                sort: { frontmatter: { date: DESC } }
                 filter: {frontmatter: {published: {eq: true}}}
               ) {
                 edges {
                   node {
                     excerpt(pruneLength: 280)
-                    html
                     frontmatter {
                       title
                       slug

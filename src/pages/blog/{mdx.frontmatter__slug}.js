@@ -1,12 +1,13 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import appSettings from "../../config/app-settings"
+import HeadHtml from '../../components/head-html'
 import Layout from '../../components/layout'
 //import '../../css/prism.css' // syntax highlighting lib
 
 const NewsPost = ({data, children}) => {
   return (
-    <Layout pageTitle={appSettings.formatTitle(data.mdx.frontmatter.title)} activeMenu="Blog">
+    <Layout activeMenu="Blog">
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12 news-post">
@@ -57,5 +58,11 @@ export const query = graphql`
     }
   }
 `
+
+export function Head({data}) {
+  return (
+    <HeadHtml pageTitle={appSettings.formatTitle(data.mdx.frontmatter.title)} />
+  )
+}
 
 export default NewsPost

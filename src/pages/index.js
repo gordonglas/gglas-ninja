@@ -1,11 +1,12 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import appSettings from "../config/app-settings"
+import HeadHtml from '../components/head-html'
 import Layout from '../components/layout'
 
 const IndexPage = ({ data }) => {
   return (
-    <Layout pageTitle={appSettings.siteTitle} activeMenu="Blog">
+    <Layout activeMenu="Blog">
       <div className="container-fluid pt-3">
         {
           data.allMdx.nodes.map((node) => (
@@ -61,5 +62,11 @@ query {
   }
 }
 `
+
+export function Head() {
+  return (
+    <HeadHtml pageTitle={appSettings.formatTitle("Blog")} />
+  )
+}
 
 export default IndexPage

@@ -1,11 +1,12 @@
 import * as React from 'react'
 import appSettings from "../config/app-settings"
+import HeadHtml from '../components/head-html'
 import Layout from '../components/layout'
 
 class ProjectsPage extends React.Component {
   render () {
     return (
-      <Layout pageTitle={appSettings.formatTitle("Projects")} activeMenu="Projects">
+      <Layout activeMenu="Projects">
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-12 news-post">
@@ -32,6 +33,12 @@ class ProjectsPage extends React.Component {
       </Layout>
     )
   }
+}
+
+export function Head() {
+  return (
+    <HeadHtml pageTitle={appSettings.formatTitle("Projects")} />
+  )
 }
 
 export default ProjectsPage

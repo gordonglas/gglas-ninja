@@ -1,12 +1,13 @@
 import * as React from "react"
 import appSettings from "../config/app-settings"
 import { StaticImage } from "gatsby-plugin-image"
+import HeadHtml from '../components/head-html'
 import Layout from '../components/layout'
 
 const AboutPage = () => {
   const title = "About " + appSettings.siteTitle;
   return (
-    <Layout pageTitle={title} activeMenu="None">
+    <Layout activeMenu="None">
       <div className="jumbotron">
         <div className="container">
           <h1>{title}</h1>
@@ -73,6 +74,12 @@ const AboutPage = () => {
         </div>
       </div>
     </Layout>
+  )
+}
+
+export function Head() {
+  return (
+    <HeadHtml pageTitle={"About " + appSettings.siteTitle} />
   )
 }
 
