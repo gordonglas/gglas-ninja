@@ -1,5 +1,6 @@
 ---
 title: "Site now uses Gatsby"
+slug: "2022/07/site-now-uses-gatsby"
 date: "2022-07-27"
 tags: ["Web Dev"]
 published: true

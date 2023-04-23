@@ -1,5 +1,6 @@
 ---
 title: "VSCode keyboard shortcuts to toggle between the terminal and editor"
+slug: "2023/04/vscode-keyboard-shortcuts-to-toggle-between-terminal-and-editor"
 date: "2023-04-20"
 tags: ["Dev", "Dev Setup", "VSCode"]
 published: true

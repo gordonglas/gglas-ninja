@@ -1,5 +1,6 @@
 ---
 title: "National VideoGame Museum trip 2022"
+slug: "2022/09/national-videogame-museum-trip-2022"
 date: "2022-09-05"
 tags: ["Vacation"]
 published: true

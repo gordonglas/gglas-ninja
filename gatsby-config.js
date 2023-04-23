@@ -61,8 +61,8 @@ module.exports = {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   data: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + "/blog/" + edge.node.slug,
-                  guid: site.siteMetadata.siteUrl + "/blog/" + edge.node.slug,
+                  url: site.siteMetadata.siteUrl + "/blog/" + edge.node.frontmatter.slug,
+                  guid: site.siteMetadata.siteUrl + "/blog/" + edge.node.frontmatter.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
                 });
               });
@@ -80,9 +80,9 @@ module.exports = {
                     html
                     frontmatter {
                       title
+                      slug
                       date
                     }
-                    slug
                   }
                 }
               }

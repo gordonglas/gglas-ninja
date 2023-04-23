@@ -14,14 +14,14 @@ const IndexPage = ({ data }) => {
                 <div className="col-sm-12 news-post-preview">
                   <div className="card col-sm-12 px-3 shadow-sm" style={{ marginBottom: 30}}>
                     <h2 style={{ marginTop: 10 }}>
-                      <Link to={`/blog/${node.slug}`}>{node.frontmatter.title}</Link>
+                      <Link to={`/blog/${node.frontmatter.slug}`}>{node.frontmatter.title}</Link>
                     </h2>
                     <div className="date">{node.frontmatter.date}</div>
                     <p className="news-content-preview">
                       {node.excerpt}
                     </p>
                     <p className="read-more">
-                      <Link to={`/blog/${node.slug}`}>Read more</Link>
+                      <Link to={`/blog/${node.frontmatter.slug}`}>Read more</Link>
                     </p>
                   </div>
                 </div>
@@ -38,12 +38,13 @@ const IndexPage = ({ data }) => {
 export const query = graphql`
 query {
   allMdx(
-    sort: {fields: frontmatter___date, order: DESC}
+    sort: {frontmatter: {date: DESC}}
     filter: {frontmatter: {published: {eq: true}}}
   ) {
     nodes {
       frontmatter {
         title
+        slug
         tags
         date(formatString: "MMMM D, YYYY")
       }
@@ -53,7 +54,6 @@ query {
           modifiedTime(formatString: "MMMM D, YYYY")
         }
       }
-      slug
       excerpt(pruneLength: 280)
     }
   }
