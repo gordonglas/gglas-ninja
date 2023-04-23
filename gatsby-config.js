@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: `https://gglas.ninja`,
     description: "The personal blog of Gordon Glas"
   },
+  trailingSlash: "ignore",
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
