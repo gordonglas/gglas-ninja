@@ -34,7 +34,9 @@ const IndexPage = ({ data }) => {
   )
 }
 
-// ignore files in the ".obsidian" folder
+// Ignores files in the ".obsidian" folder.
+// 'parent' is a reference to the source node
+// created by the "gatsby-source-filesystem" plugin.
 export const query = graphql`
 query {
   allMdx(

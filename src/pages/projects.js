@@ -1,26 +1,8 @@
 import * as React from 'react'
 import appSettings from "../config/app-settings"
 import Layout from '../components/layout'
-//import '../css/prism.css' // syntax highlighting lib
 
 class ProjectsPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.prismScriptLoaded = false;
-  }
-
-//  componentDidMount () {
-//    if (!this.prismScriptLoaded) {
-//      this.prismScriptLoaded = true;
-//
-//      let script = document.createElement("script");
-//      script.src = "/js/prism.js";
-//      script.async = true;
-//
-//      document.body.appendChild(script);
-//    }
-//  }
-
   render () {
     return (
       <Layout pageTitle={appSettings.formatTitle("Projects")} activeMenu="Projects">
