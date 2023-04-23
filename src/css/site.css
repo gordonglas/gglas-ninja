@@ -61,7 +61,7 @@
     overflow: hidden;
 }
 
-.news-content p {
+.news-content p, .news-content span span.gatsby-resp-image-wrapper {
     margin-top: 30px;
     margin-bottom: 30px;
   }
