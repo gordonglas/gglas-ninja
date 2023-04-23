@@ -42,7 +42,7 @@ const Layout = ({activeMenu, children}) => {
             </div>
             <div className="col-sm-4 col-md-4">
               <ul className="list-inline">
-                {/* <li className="list-inline-item"><a href="/rss.xml" title="Subscribe via RSS"><i className="bi bi-rss-fill"></i> RSS</a></li> */}
+                <li className="list-inline-item"><a href="/rss.xml" title="Subscribe via RSS"><i className="bi bi-rss-fill"></i> RSS</a></li>
                 <li className="list-inline-item"><Link to="/about"><i className="bi bi-info-circle-fill"></i> About</Link></li>
               </ul>
               <p>&copy; {year} Gordon Glas</p>

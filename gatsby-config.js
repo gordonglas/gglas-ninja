@@ -64,9 +64,7 @@ module.exports = {
                   data: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + "/blog/" + edge.node.frontmatter.slug,
                   guid: site.siteMetadata.siteUrl + "/blog/" + edge.node.frontmatter.slug,
-                  // RSS feed is broken until I can figure out what to use instead of
-                  // the html field, which is no longer in the mdx query data as of v5.
-                  // This affects the paths of images and such in the rss html.
+                  // Since gatsby v5, the allMdx.edges.node.html field is gone.
                   //custom_elements: [{ 'content:encoded': edge.node.html }],
                 });
               });
