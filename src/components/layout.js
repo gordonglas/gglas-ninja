@@ -48,8 +48,9 @@ const Layout = ({activeMenu, children}) => {
               <p>&copy; {year} Gordon Glas</p>
             </div>
             <div className="col-sm-4 col-md-4">
-              <a href="https://twitter.com/alphatrak" style={{ marginRight: 10 }}><div className="twitter-icon" aria-label="My Twitter account"></div></a>
-              <a href="https://github.com/gordonglas"><div className="github-icon" aria-label="My github account"></div></a>
+              <a href="https://mastodon.gamedev.place/@kefka" rel="me" style={{ marginRight: 10 }}><div className="mastodon-icon" aria-label="Chat with me on Mastodon"></div></a>
+              <a href="https://twitter.com/alphatrak" style={{ marginRight: 10 }}><div className="twitter-icon" aria-label="Follow me on Twitter"></div></a>
+              <a href="https://github.com/gordonglas"><div className="github-icon" aria-label="Follow me on github"></div></a>
             </div>
           </div>
         </div>

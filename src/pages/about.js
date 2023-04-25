@@ -58,6 +58,10 @@ const AboutPage = () => {
                         <td><a href="mailto:gglas@overworldsoft.com">gglas@overworldsoft.com</a></td>
                       </tr>
                       <tr>
+                        <td><i className="bi bi-mastodon"></i> Mastodon:</td>
+                        <td><a href="https://mastodon.gamedev.place/@kefka">@kefka@mastodon.gamedev.place</a></td>
+                      </tr>
+                      <tr>
                         <td><i className="bi bi-twitter"></i> Twitter:</td>
                         <td><a href="https://twitter.com/alphatrak">@alphatrak</a></td>
                       </tr>

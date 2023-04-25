@@ -139,6 +139,13 @@ _:-moz-tree-row(hover), select.form-control {
     appearance: none;
 }*/
 
+.mastodon-icon {
+    display:inline-block;
+    width: 68px;
+    height: 68px;
+    background: url(/img/gn/pixel-icons.png) -243px -3px;
+}
+
 .twitter-icon {
     display:inline-block;
     width: 68px;
