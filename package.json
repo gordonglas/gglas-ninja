@@ -11,6 +11,7 @@
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
+    "postbuild": "python scripts/post-build.py",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
