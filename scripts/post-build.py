@@ -8,13 +8,13 @@
 # and some things need it to exist in the html from the get-go.
 #
 # Assumes this script is under a "scripts" folder under
-# the gatsby project root, like so: "scripts/postbuild.py"
+# the gatsby project root, like so: "scripts/post-build.py"
 #
 # Run it after "gatsby build" by running:
 #   npm run postbuild
 #   (Requires postbuild script in package.json)
 # or run it directly:
-#   python scripts/postbuild.py
+#   python scripts/post-build.py
 # Then you can test locally by running "gatsby serve".
 #
 # Tested on Windows, but should work cross-platform.
