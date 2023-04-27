@@ -28,16 +28,6 @@ module.exports = {
               backgroundColor: "none",
             },
           },
-          {
-            resolve: "gatsby-remark-copy-linked-files",
-            options: {
-              // files will go under "public/remark-images"
-              destinationDir: "remark-images",
-              // technically, these file types are ignored by default,
-              // since this plugin assumes we're using "gatsby-remark-images" to process these file types.
-              ignoreFileExtensions: ["png", "jpg", "jpeg", "bmp", "tiff"],
-            },
-          },
         ],
       }
     },

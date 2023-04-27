@@ -6,6 +6,9 @@ tags: ["Vacation"]
 published: true
 ---
 
+import nvm_typing_dead_02_mp4 from "./nvm-typing-dead-02.mp4"
+import nvm_arcade_06_mp4 from "./nvm-arcade-06.mp4"
+
 This past weekend, we drove to Dallas for vacation and one of the places we went was the [National VideoGame Museum](http://nvmusa.org/) in Frisco. I wanted to go in blindly and knew nothing about it before going. I was pleasently surprised by how much they have there, and by the majority of hands-on computers and consoles they have, that are in good working condition. Not to mention there's a nice-sized room at the end, filled with 80's (and some early-90's) arcade games, all of which were in great working order and require tokens, complete with 80's music playing. It was well worth the trip, in my opinion.
 
 If you also would rather not be spoiled by all the following pics, then just stop here, close this browser tab, and go visit the museum. There's many other things to do in the Dallas area to make it more worth the trip.
@@ -51,7 +54,8 @@ Various controllers. Out of the older ones in the top left, I only recognize `Co
 My son playing `The Typing of the Dead` for `Dreamcast`.
 ![](nvm-typing-dead-01.jpg)
 
-<a href="nvm-typing-dead-02.mp4">Video of my son playing The Typing of the Dead</a>
+Video of him playing it
+<EmbedVideo mp4={nvm_typing_dead_02_mp4} width="300" />
 
 Going back to the consoles timeline near the museum entrance. My first console (technically my parent's) was the `Intellivision`. Further in the museum, they had an Intellivision hooked up to a TV and you could play two player `BurgerTime` on a couch, one of my favorite games for the system (and my mom's favorite game.)
 ![](nvm-consoles-02.jpg)
@@ -147,7 +151,8 @@ I loved `Carnival` back when my parents would take me to `Chuck E Cheese` in the
 
 ![](nvm-arcade-05.jpg)
 
-<a href="nvm-arcade-06.mp4">Video of my son playing Blue Shark</a>
+Video of my son playing Blue Shark
+<EmbedVideo mp4={nvm_arcade_06_mp4} width="300" />
 
 My son and I got to play one of my all-time favorite arcade games, `Gauntlet`, together. This really made my day.
 ![](nvm-arcade-07.jpg)

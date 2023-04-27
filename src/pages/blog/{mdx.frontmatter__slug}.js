@@ -1,9 +1,14 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
+import { MDXProvider } from "@mdx-js/react"
 import appSettings from "../../config/app-settings"
+import EmbedVideo from '../../components/embed-video'
 import HeadHtml from '../../components/head-html'
 import Layout from '../../components/layout'
 import '../../css/prism.css' // syntax highlighting lib
+
+// See: https://www.gatsbyjs.com/docs/how-to/routing/mdx/#make-components-available-globally-as-shortcodes
+const shortcodes = { EmbedVideo }
 
 class NewsPost extends React.Component {
   constructor(props) {
@@ -66,7 +71,7 @@ class NewsPost extends React.Component {
                 <h2 style={{ marginTop: 10 }}>{this.props.data.mdx.frontmatter.title}</h2>
                 <div className="date">{this.props.data.mdx.frontmatter.date}</div>
                 <div className="news-content">
-                  {this.props.children}
+                  <MDXProvider components={shortcodes}>{this.props.children}</MDXProvider>
                 </div>
                 <span className="clearfix"></span>
               </div>
