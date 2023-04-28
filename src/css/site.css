@@ -5,11 +5,11 @@
     border-radius: .3rem;
 }
 
-    .jumbotron h1 {
-        font-weight: 700 !important;
-        font-weight: 300;
-        line-height: 1.2;
-    }
+.jumbotron h1 {
+    font-weight: 700 !important;
+    font-weight: 300;
+    line-height: 1.2;
+}
 
 /* gatsby overrides */
 
@@ -64,7 +64,7 @@
 .news-content p, .news-content span span.gatsby-resp-image-wrapper {
     margin-top: 30px;
     margin-bottom: 30px;
-  }
+}
 
 .video-container {
     width: 100%;
@@ -85,9 +85,9 @@
     padding: 15px 15px;
 }
 
-    .site-box h2 {
-        margin-top: 0 !important;
-    }
+.site-box h2 {
+    margin-top: 0 !important;
+}
 
 .site-margin {
     margin-bottom: 30px;
