@@ -32,6 +32,14 @@
     width: 100%;
 }
 
+.isso-comment .text-wrapper .text p {
+    color: #353535;
+}
+
+.isso-comment-header .permalink time {
+    color: #606060;
+}
+
 .news-post-preview {
     max-width: 1000px !important;
     margin-left: auto;
