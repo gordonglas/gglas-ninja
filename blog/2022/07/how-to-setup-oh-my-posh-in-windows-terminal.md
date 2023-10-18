@@ -6,6 +6,8 @@ tags: ["Dev", "Dev Setup", "VSCode"]
 published: true
 ---
 
+*Updated 10/5/2023: Added instructions for oh-my-posh in git-bash in Visual Studio.*
+
 While surfing the web (do people still say that?) I've seen several programmers have their shell decorated in a neat way, such as:
 
 ![oh-my-posh screenshot](oh-my-posh-ex1.jpg)
@@ -82,10 +84,27 @@ Set-ExecutionPolicy RemoteSigned
 
 <br/><br/>
 
-## Visual Studio Code Terminal Font Setup
+## Visual Studio Code - Terminal Font Setup
 
 If you use Visual Studio Code, you'll probably notice that some of the characters in the prompt don't display correctly in it's integrated bash terminal. You can easily fix this by setting the terminal font to the same font we used above:
 * Opening settings by pressing `ctrl-shift-p` to open the command panel and type settings and open the settings UI.
 * Search the settings UI for `terminal font` and find the `Terminal > Integrated: Font Family` setting.
 * Set it to the same font face name you used above, which is `MesloLGM NF` in this case.
 * It should update immediately and you should be good to go.
+
+<br/><br/>
+
+## Visual Studio - git-bash Terminal Setup
+
+If you use Visual Studio and you've followed the instructions above to get oh-my-posh working in Git Bash, you can easily get it working in Visual Studio by following these steps (This was done in Visual Studio 2022):
+* Go to the `Tools menu > Options`.
+* Under `Environment > Terminal`, click `Add`.
+* Give it a Name. Something like `Git Bash`.
+* Shell Location will most likely be `C:\Program Files\Git\bin\sh.exe`, but maybe you installed Git Bash to a different volume/folder.
+* Set Arguments to `--login -i`
+* Optionally set `Git Bash` as the default Terminal by clicking `Set as Default`.
+* Click `Apply` and `OK`.
+* Under `Environment > Fonts and Colors`, in the `Show settings for` drop-down, select `Terminal`.
+* In the `Font` drop-down, select the nerd-font that you used with Git Bash above. I'm using `MesloLGM NF`.
+* Click `OK`.
+* Open a Terminal: Go to the `View menu > Terminal`. Open a Git Bash terminal (if it's not already default).
