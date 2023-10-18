@@ -14,10 +14,10 @@ class ProjectsPage extends React.Component {
                 <h2 style={{ marginTop: 10 }}>Projects</h2>
                 {/* <div className="date">July 27 2022</div> */}
                 <div className="news-content">
-
-                  <p>I'm currently concentrating on <a href="https://overworldsoft.com/news/2022/07/learning-roblox-dev">learning Roblox development</a> with my son, and
-                     slowly working on my C++ game engine. I recently <a href="https://overworldsoft.com/news/2022/07/audio-engine-completed">finished the Audio engine</a> for
-                     the C++ game engine.
+                  <p>I'm currently concentrating on learning <a href="https://www.lexaloffle.com/pico-8.php">Pico-8</a>,
+                    but I've also been <a href="https://overworldsoft.com/news/2022/07/learning-roblox-dev">learning Roblox development</a> with my son,
+                    and slowly working on my C++ game engine.
+                    I recently <a href="https://overworldsoft.com/news/2022/07/audio-engine-completed">finished the Audio engine</a> for the C++ game engine.
                   </p>
 
                   <p>My photo/video album static site generator, <a href="https://github.com/gordonglas/tellah-photo">Tellah</a>, is now complete.</p>

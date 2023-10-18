@@ -37,7 +37,7 @@ const AboutPage = () => {
                     <li>Listen to relaxing <a href="https://www.youtube.com/results?search_query=kitaro">New Age</a>, <a href="https://www.youtube.com/results?search_query=relaxing+coffee+shop+jazz">Jazz</a>, <a href="https://www.youtube.com/results?search_query=1980%27s+music">80's</a>, <a href="https://www.youtube.com/results?search_query=synthwave">Synthwave</a>, and <a href="https://www.youtube.com/results?search_query=relaxing+video+game+music">game music soundtracks</a>.</li>
                     <li>Watch space-operas.</li>
                     <li>Work on my yard.</li>
-                    <li>(I want to add "Make gunpla" back to this list sometime soon. Haven't done it since grade-school.)</li>
+                    <li>(I want to add "Make gunpla" back to this list sometime soon. I started on an Entry-grade level model recently.)</li>
                   </ul>
                 </div>
                 <p>Also, I realize the "ninja" domain name sounds a bit pretentious,
