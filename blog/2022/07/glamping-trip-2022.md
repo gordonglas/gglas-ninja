@@ -1,8 +1,9 @@
 ---
-title: "Glamping trip 2022"
-slug: "2022/07/glamping-trip-2022"
-date: "2022-07-29"
-tags: ["Vacation"]
+title: Glamping trip 2022
+slug: 2022/07/glamping-trip-2022
+date: 2022-07-29
+tags:
+  - Vacation
 published: true
 ---
 

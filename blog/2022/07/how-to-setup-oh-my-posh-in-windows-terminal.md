@@ -1,8 +1,12 @@
 ---
-title: "How to setup oh-my-posh in Windows Terminal"
-slug: "2022/07/how-to-setup-oh-my-posh-in-windows-terminal"
-date: "2022-07-28"
-tags: ["Dev", "Dev Setup", "VSCode"]
+title: How to setup oh-my-posh in Windows Terminal
+slug: 2022/07/how-to-setup-oh-my-posh-in-windows-terminal
+date: 2022-07-28
+tags:
+  - Dev
+  - Dev
+  - Setup
+  - VSCode
 published: true
 ---
 

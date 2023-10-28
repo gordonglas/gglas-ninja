@@ -1,8 +1,12 @@
 ---
-title: "Nintendo/Apple business book reviews - October 2022"
-slug: "2022/10/nintendo-apple-business-book-reviews-october-2022"
-date: "2022-10-24"
-tags: ["Apple", "Books", "Business", "Nintendo"]
+title: Nintendo/Apple business book reviews - October 2022
+slug: 2022/10/nintendo-apple-business-book-reviews-october-2022
+date: 2022-10-24
+tags:
+  - Apple
+  - Books
+  - Business
+  - Nintendo
 published: true
 ---
 

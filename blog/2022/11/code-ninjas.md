@@ -1,8 +1,9 @@
 ---
-title: "Code Ninjas - November 2022"
-slug: "2022/11/code-ninjas"
-date: "2022-11-24"
-tags: ["Family"]
+title: Code Ninjas - November 2022
+slug: 2022/11/code-ninjas
+date: 2022-11-24
+tags:
+  - Family
 published: false
 ---
 
