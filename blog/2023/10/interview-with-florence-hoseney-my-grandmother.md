@@ -28,11 +28,11 @@ She lived on Harpst Street, and it was the 2nd house in a new neighborhood, so i
 
 In junior high, she had lots of opportunities to enjoy various interests. There was a big gymnasium and playing field. She was captain of the field hockey team, who at one time beat the U of M freshmen team. During the winter, she went skating nearly every night, either at the U of M ice rink or at a large pond near her house, which would freeze over. Her grades suffered, but she loved to skate and watch the hockey players at night. She won medals at city skate meets, both third and second places. When she won first place, she was very disappointed when all she got was a blue ribbon.
 
+> "When there were city skate meets, I won medals for third and second place. When I won first place for speed, they gave out blue ribbons. That was so disappointing, because you can't wear a blue ribbon on a chain!"
+
 <center>A skate-shaped metal prize Florence won at a ice skating meet. (Penny for size reference.)</center>
 
 ![](florence_hoseney_skate_prize.jpg)
-
-> "When there were city skate meets, I won medals for third and second place. When I won first place for speed, they gave out blue ribbons. That was so disappointing, because you can't wear a blue ribbon on a chain!"
 
 She would also ride wildly on a very fast iceboat in a nearby pond that would freeze over, so she had no fear as a child. One day while skating, she met a friend named Lila, whose mother had died, and so she was a mother to Lila.
 
