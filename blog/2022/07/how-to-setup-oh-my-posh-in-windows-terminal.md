@@ -52,7 +52,7 @@ winget upgrade oh-my-posh
 * Restart Windows Terminal so it sees the new environment vars.
 * Tell git-bash to use oh-my-posh along with a specific theme:
 	* oh-my-posh themes are installed to `%localappdata%/Programs/oh-my-posh/themes`
-		* You can preview these themes here: https://ohmyposh.dev/docs/themes
+		* You can preview these themes here: [https://ohmyposh.dev/docs/themes](https://ohmyposh.dev/docs/themes)
 	* In git-bash, run `nano ~/.bash_profile` and add the following (change the theme file if you wish):
 ```bash
 eval "$(oh-my-posh --init --shell bash --config ~/AppData/Local/Programs/oh-my-posh/themes/powerline.omp.json)"
