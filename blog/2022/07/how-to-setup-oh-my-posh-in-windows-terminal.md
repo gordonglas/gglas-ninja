@@ -8,6 +8,7 @@ tags:
   - VSCode
 published: true
 ---
+*Updated 2024-02-26: Added instructions for oh-my-posh in git-bash in MINGW.*  
 *Updated 2024-02-22: Fixed winget package name conflict. Updated Meslo nerd font to v3.1.1.*  
 *Updated 2023-10-05: Added instructions for oh-my-posh in git-bash in Visual Studio.*
 
@@ -17,9 +18,11 @@ While surfing the web (do people still say that?) I've seen several programmers 
 
 I think this looks great, so I wanted to learn how to set it up.
 
-I've tried several multi-tabbed terminal emulators over the years... mostly ConEmu, Cmder. But I've been using `Windows Terminal` for awhile now. Microsoft has iterated on it very fast recently, and it has some nice features that are fairly easy to configure. I also mostly do my work in the `git-bash` shell in Windows Terminal.
+I've tried several multi-tabbed terminal emulators over the years... mostly ConEmu and Cmder, but I've been using `Windows Terminal` for a while now. Microsoft has iterated on it very fast recently, and it has some nice features that are fairly easy to configure. I also mostly do my work in the `git-bash` shell in Windows Terminal.
 
-So this post will show you how to setup `oh-my-posh` in git-bash (and further down, PowerShell) in Windows Terminal in Windows 10 and up. Let's get started:  <br/><br/> 
+So this post will show you how to setup `oh-my-posh` in git-bash in a few different terminals for Windows 10 and up. The main instructions are in the first section for `Windows Terminal`, so you should follow them first, as other sections depend on those instructions. Let's get started:
+
+<br/>
 ## Oh-my-posh in git-bash in Windows Terminal
 
 * Install [Windows Terminal from the Microsoft Store](https://www.microsoft.com/store/productId/9N0DX20HK701)
@@ -63,7 +66,7 @@ eval "$(oh-my-posh --init --shell bash --config ~/AppData/Local/Programs/oh-my-p
 
 Same as above instructions for git-bash, but we need to add the oh-my-posh command and theme to our user's PowerShell `$PROFILE`.
 
-*Update: As of Feb 2024, I only had to run the "Set-ExecutionPolicy RemoteSigned" command as admin, then it just worked (assuming you followed the instructions above for git-bash.*
+*Update: As of Feb 2024, I only had to run the "Set-ExecutionPolicy RemoteSigned" command as admin, then it just worked (assuming you followed the instructions above for git-bash.)*
 
 To see the location of your $PROFILE file (which may not actually be created yet even though it returns a path):
 ```powershell
@@ -86,6 +89,30 @@ If you get an error message saying you can't run your profile script, run powers
 ```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
+
+<br/><br/>
+
+## Oh-my-posh in git-bash in MINGW
+
+If you followed the instructions for setting up `Oh-my-posh in git-bash in Windows Terminal`, it's also easy to get it working in git-bash in the MINGW terminal, which is the terminal that comes with `Git for Windows`. You already have oh-my-posh running within it, because it runs via `~/.bash_profile`. So the only thing you need to do is tell MINGW to use your font.
+
+Unfortunately, MINGW only shows a set of Monospaced fonts in it's GUI settings, so we have to do it via a config file. Open git-bash in MINGW, then type:
+
+```bash
+cd ~
+nano .minttyrc
+```
+
+Use this as the contents of `~/.minttyrc`
+
+```bash
+FontHeight=11
+Font=MesloLGM Nerd Font
+```
+
+Save and exit nano, then restart git-bash / MINGW to see the updated prompt. Adjust the FontHeight as needed.
+
+*Thanks to [this SO post](https://stackoverflow.com/a/57216117/341942) for this solution.*
 
 <br/><br/>
 
